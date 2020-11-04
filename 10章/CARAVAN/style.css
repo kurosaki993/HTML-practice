@@ -226,3 +226,36 @@ footer{
 .footer-text{
     color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+header{
+    width: 100%;
+}
+.nav-list{
+    width: 100%;
+}
+
+.nav-list-item{
+    margin: 0;
+    display: block;
+}
+
+.main-visual-content{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    display: block;
+}
+
+.blog{
+    width: 100%;
+    margin: 0;
+}
+
+.blog-image{
+    width: 40%;
+}
+
+}
